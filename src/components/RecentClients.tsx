@@ -16,7 +16,7 @@ const clients: Client[] = [
   {
     id: 1,
     title: '2X OFFLOAD record but now successful Direct Flight from Manila to Dubai UAE!',
-    image: '/assets/clients/1/1.jpg',
+    image: 'assets/1/1.jpg',
     location: 'Dubai International Airport',
     date: 'November 19, 2024',
     service: 'Visa Assistance Service',
@@ -26,7 +26,7 @@ const clients: Client[] = [
   {
     id: 2,
     title: 'Successful Direct Flight from Manila to Dubai UAE via Employment Visa with a previous 4x offload record!',
-    image: '/assets/clients/2/1.jpg',
+    image: '/assets/2/1.jpg',
     location: 'Dubai International Airport',
     date: 'November 10, 2024',
     service: 'Visa Assistance Service',
@@ -36,7 +36,7 @@ const clients: Client[] = [
   {
     id: 3,
     title: 'From 2X Offload to TOUCHDOWN Dubai!  Thank you for trusting us with  processing the documents needed  and welcome to Dubai!',
-    image: '/assets/clients/3/1.jpg',
+    image: '/assets/3/1.jpg',
     location: 'Dubai International Airport',
     date: 'November 3, 2024',
     service: 'Visa Assistance Service',

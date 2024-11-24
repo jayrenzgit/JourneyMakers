@@ -26,7 +26,7 @@ export function SearchBar() {
           type="submit"
           className="bg-primary-600 text-white p-3 rounded-lg hover:bg-primary-700 transition-colors flex-shrink-0"
         >
-          <FiSearch size={20} />
+          <FiSearch size={20} className='bg-red-300'/>
         </button>
       </form>
     </div>
