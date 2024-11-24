@@ -26,7 +26,7 @@ const clients: Client[] = [
   {
     id: 2,
     title: 'Successful Direct Flight from Manila to Dubai UAE via Employment Visa with a previous 4x offload record!',
-    image: '/assets/2/1.jpg',
+    image: '/JourneyMakers/assets/2/1.jpg',
     location: 'Dubai International Airport',
     date: 'November 10, 2024',
     service: 'Visa Assistance Service',
@@ -36,7 +36,7 @@ const clients: Client[] = [
   {
     id: 3,
     title: 'From 2X Offload to TOUCHDOWN Dubai!  Thank you for trusting us with  processing the documents needed  and welcome to Dubai!',
-    image: '/assets/3/1.jpg',
+    image: '/JourneyMakers/assets/3/1.jpg',
     location: 'Dubai International Airport',
     date: 'November 3, 2024',
     service: 'Visa Assistance Service',
