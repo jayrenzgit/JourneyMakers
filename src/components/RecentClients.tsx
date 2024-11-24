@@ -16,7 +16,7 @@ const clients: Client[] = [
   {
     id: 1,
     title: '2X OFFLOAD record but now successful Direct Flight from Manila to Dubai UAE!',
-    image: 'assets/1/1.jpg',
+    image: '/JourneyMakers/assets/1/1.jpg',
     location: 'Dubai International Airport',
     date: 'November 19, 2024',
     service: 'Visa Assistance Service',
