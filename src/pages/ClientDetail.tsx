@@ -99,6 +99,7 @@ function ClientDetail() {
         </Link>
 
         <div className="bg-white rounded-lg shadow-xl overflow-hidden">
+          {/* PhotoCarousel component */}
           <PhotoCarousel 
             images={client.images}
             title={client.title}
