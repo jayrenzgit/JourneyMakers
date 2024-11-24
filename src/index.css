@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Swiper Custom Styles */
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+  background: rgba(0, 0, 0, 0.3);
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.7 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
+
+/* Enhanced Starry Night Sky Animation */
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.stars-1 {
+  background-image: 
+    radial-gradient(1px 1px at 25% 25%, #fff 100%, transparent),
+    radial-gradient(1px 1px at 50% 50%, #fff 100%, transparent),
+    radial-gradient(1px 1px at 75% 75%, #fff 100%, transparent),
+    radial-gradient(2px 2px at 15% 85%, #fff 100%, transparent),
+    radial-gradient(2px 2px at 85% 15%, #fff 100%, transparent);
+  background-size: 250px 250px;
+  animation: sparkle 10s ease infinite;
+}
+
+.stars-2 {
+  background-image: 
+    radial-gradient(1px 1px at 10% 90%, #fff 100%, transparent),
+    radial-gradient(1px 1px at 90% 10%, #fff 100%, transparent),
+    radial-gradient(1.5px 1.5px at 30% 70%, #fff 100%, transparent),
+    radial-gradient(1.5px 1.5px at 70% 30%, #fff 100%, transparent),
+    radial-gradient(2px 2px at 50% 50%, #fff 100%, transparent);
+  background-size: 200px 200px;
+  animation: sparkle 15s ease infinite;
+}
+
+.stars-3 {
+  background-image: 
+    radial-gradient(1px 1px at 35% 65%, #fff 100%, transparent),
+    radial-gradient(1px 1px at 65% 35%, #fff 100%, transparent),
+    radial-gradient(1.5px 1.5px at 40% 60%, #fff 100%, transparent),
+    radial-gradient(1.5px 1.5px at 60% 40%, #fff 100%, transparent),
+    radial-gradient(2px 2px at 45% 55%, #fff 100%, transparent);
+  background-size: 150px 150px;
+  animation: sparkle 20s ease infinite;
+}
+
+.shooting-star {
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: linear-gradient(90deg, #fff, transparent);
+  animation: shooting 4s linear infinite;
+  opacity: 0;
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes shooting {
+  0% {
+    transform: translateX(-100%) translateY(100%) rotate(-45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(200%) translateY(-200%) rotate(-45deg);
+    opacity: 0;
+  }
+}
